@@ -25,7 +25,7 @@ export default {
     success: '操作成功',
     failed: '操作失败',
     verify: '验证',
-    unauthorizedTips: '未经授权，请先进行验证。',
+    unauthorizedTips: '由于最近访问人数过多，请先验证您的授权码',
   },
   chat: {
     placeholder: '[输入/使用角色扮演] 来说点什么吧...（Shift + Enter = 换行）',

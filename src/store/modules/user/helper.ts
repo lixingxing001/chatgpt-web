@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://i1.hdslb.com/bfs/face/c0ef9025ff767c79f6b0058d6b1f3f1ee74414f8.jpg',
+      avatar: '',
       name: 'Hero',
-      description: '微信：HeyYou_Bro',
+      description: '☀︎May everything well',
     },
   }
 }
