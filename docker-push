@@ -1,6 +1,0 @@
-
-# 打包上传至dockerhub
-docker buildx build --platform linux/amd64,linux/arm64 --tag lixing0805/chatgpt-web-v5  --push .
-
-# 启动命令
-docker run --name chatgpt-web-v9 -d -p 80:3002 --env OPENAI_API_KEY=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 --env AUTH_SECRET_KEY=hero@lixing lixing0805/chatgpt-web-v9
