@@ -62,6 +62,9 @@ function handlePress(event: KeyboardEvent) {
           <p class="text-base text-center text-slate-500 dark:text-slate-500">
             {{ $t('common.unauthorizedTips') }}
           </p>
+          <p class="text-base text-center text-slate-500 dark:text-slate-500">
+            {{ $t('common.unauthorizedTipsWx') }}
+          </p>
           <Icon403 class="w-[200px] m-auto" />
         </header>
         <NInput v-model:value="token" type="password" placeholder="" @keypress="handlePress" />
