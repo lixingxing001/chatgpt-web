@@ -30,6 +30,7 @@ export default {
   },
   chat: {
     placeholder: '[输入/使用角色扮演] 来说点什么吧...（Shift + Enter = 换行）',
+    newChatButton: '新建聊天',
     placeholderMobile: '来说点什么...',
     copy: '复制',
     copied: '复制成功',
@@ -71,6 +72,7 @@ export default {
     balance: 'API余额',
   },
   store: {
+    siderButton: '提示词商店',
     local: '本地',
     online: '在线',
     title: '标题',
