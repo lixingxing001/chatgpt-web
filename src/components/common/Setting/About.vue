@@ -49,7 +49,7 @@ onMounted(() => {
           如果你觉得此项目对你有帮助，欢迎共同学习交流。
         </p>
         <p>
-          微信: HeyYou_Bro
+          微信: stop_ts
         </p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
