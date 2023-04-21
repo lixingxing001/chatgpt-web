@@ -26,7 +26,7 @@ export default {
     failed: '操作失败',
     verify: '验证',
     unauthorizedTips: '由于最近访问人数过多，请先验证您的授权码。',
-    unauthorizedTipsWx: '如果您还没有授权码，联系管理员获取(微信:stop_ts)',
+    unauthorizedTipsWx: '如果您还没有授权码，联系管理员获取',
   },
   chat: {
     placeholder: '[输入/使用角色扮演] 来说点什么吧...（Shift + Enter = 换行）',
