@@ -44,14 +44,6 @@ onMounted(() => {
       <h2 class="text-xl font-bold">
         版本: {{ pkg.version }}
       </h2>
-      <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
-        <p>
-          如果你觉得此项目对你有帮助，欢迎共同学习交流。
-        </p>
-        <p class="font-bold">
-          微信: stop_ts
-        </p>
-      </div>
       <p>{{ $t("setting.api") }}：{{ 'GPT-3.5' }}</p>
       <p v-if="isChatGPTAPI">
         {{ $t("setting.balance") }}：{{ config?.balance ?? '-' }}
