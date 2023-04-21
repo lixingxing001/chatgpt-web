@@ -16,7 +16,7 @@ export function defaultSetting(): UserState {
   return {
     userInfo: {
       avatar: '',
-      name: 'Me',
+      name: '旧猫科技',
       description: '☀︎May everything well',
     },
   }
