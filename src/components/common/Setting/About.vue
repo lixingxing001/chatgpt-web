@@ -52,7 +52,7 @@ onMounted(() => {
           微信: stop_ts
         </p>
       </div>
-      <p>{{ $t("setting.api") }}：{{ 'GPT-3.5' }}</p>
+      <p>{{ $t("setting.api") }}：{{ 'GPT-4' }}</p>
       <p v-if="isChatGPTAPI">
         {{ $t("setting.monthlyUsage") }}：{{ config?.usage ?? '-' }}
       </p>
