@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import { NButton, NModal, useMessage } from 'naive-ui'
+import { NButton, NModal } from 'naive-ui'
 
 interface Props {
   visible: boolean
@@ -7,7 +7,6 @@ interface Props {
 }
 
 defineProps<Props>()
-const ms = useMessage()
 </script>
 
 <template>
