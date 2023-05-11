@@ -16,11 +16,16 @@ import { useBasicLayout } from '@/hooks/useBasicLayout'
 import { useChatStore, usePromptStore, useSettingStore } from '@/store'
 import { fetchChatAPIProcess } from '@/api'
 import { t } from '@/locales'
+import News from '@/views/chat/layout/News.vue'
 
 let controller = new AbortController()
 
 const openLongReply = import.meta.env.VITE_GLOB_OPEN_LONG_REPLY === 'true'
 
+const is_open = ref<boolean>(true)
+const close_tip = () => {
+  is_open.value = false
+}
 const route = useRoute()
 const dialog = useDialog()
 const ms = useMessage()
@@ -478,6 +483,7 @@ onUnmounted(() => {
 
 <template>
   <div class="flex flex-col w-full h-full">
+    <News :visible="is_open" :close_tip_fun="close_tip" />
     <HeaderComponent
       v-if="isMobile"
       :using-context="usingContext"

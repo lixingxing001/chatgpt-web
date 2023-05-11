@@ -25,6 +25,7 @@ export default {
     success: '操作成功',
     failed: '操作失败',
     verify: '验证',
+    newsMessage: '本平台使用了最新的GPT-4API,对比之前的API速度上可能稍有降，但是在准确度上有很大的提升,敬请体验！',
     unauthorizedTips: '由于最近访问人数过多，请先验证您的授权码。',
     unauthorizedTipsWx: '如果您还没有授权码，联系管理员获取(微信:stop_ts)',
   },
