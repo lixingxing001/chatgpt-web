@@ -25,7 +25,7 @@ defineProps<Props>()
           </p>
           <p class="text-base text-center text-slate-500 dark:text-slate-500">
             <!--            {{ $t('common.newsMessage') }} -->
-            此外,原域名: <b>heroai.cloud</b> 已经迁移到 <b>heroai.online</b>
+            此外,原域名: <b>heroai.cloud</b> 已经迁移到 <a href="https://heroai.online/"><b>heroai.online</b></a>
           </p>
         </header>
         <NButton
